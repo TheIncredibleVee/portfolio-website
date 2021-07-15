@@ -1,0 +1,28 @@
+name: Github Pages Deploy
+
+on:
+  push:
+    branches:
+      - "master"
+
+
+jobs:
+  build:
+    runs-on: kali-latest
+
+    stratergy: 
+      matrix:
+        node-version: [15.x]
+    
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v1
+
+      - name: Install and build 
+        run:  npm install && npm run build
+
+      - name: Deply
+        uses: JamesIves/github-pages-deploy-actions@4.1.1
+        with:
+          branch: gh-pages
+          folder: build
