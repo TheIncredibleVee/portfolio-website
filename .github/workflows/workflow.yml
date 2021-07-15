@@ -8,9 +8,9 @@ on:
 
 jobs:
   build:
-    runs-on: kali-latest
+    runs-on: ubuntu-latest
 
-    stratergy: 
+    strategy: 
       matrix:
         node-version: [15.x]
     
