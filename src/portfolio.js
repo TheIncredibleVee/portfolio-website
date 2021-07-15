@@ -45,7 +45,7 @@ const skillsSection = {
     emoji(
       "⚡ Front-end web-applications using React.js"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA )"),
+    emoji("⚡ Progressive Web Applications (PWA)"),
     emoji(
       "⚡ Integration of third party services and API's such as Firebase/ AWS / Digital Ocean"
     )
