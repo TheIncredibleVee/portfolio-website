@@ -33,7 +33,7 @@ const socialMediaLinks = {
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
-  display: false // Set true to display this section, defaults to false
+  display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
