@@ -21,8 +21,8 @@ jobs:
       - name: Install and build 
         run:  npm install && npm run build
 
-      - name: Deply
-        uses: JamesIves/github-pages-deploy-actions@4.1.1
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
           folder: build
