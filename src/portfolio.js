@@ -27,7 +27,7 @@ const socialMediaLinks = {
   github: "https://github.com/TheIncredibleVee",
   linkedin: "https://www.linkedin.com/in/theincrediblevee/",
   gmail: "cehvinaysachdeva@gmail.com",
-  //gitlab: "https://gitlab.com/saadpasta",
+  gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/TheIncredibleVee/",
   instagram: "https://www.instagram.com/theincrediblevee/",
   //medium: "https://medium.com/@saadpasta",
