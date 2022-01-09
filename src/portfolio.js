@@ -14,10 +14,10 @@ const greeting = {
   username: "TheIncredibleVee",
   title: "Hi all, I'm Vinay ",
   subTitle: emoji(
-    "A hardworking and ambitious individual with great passion for the Information Technology, Business Development and Economics industries. Currently studying B.Tech (Electrical Engineering, 3rd Year) at Delhi Technological University(DTU)."
+    "A hardworking and ambitious student with great passion for the Information Technology, Business Development and Economics industries. Currently studying B.Tech (Electrical Engineering, 3rd Year) at Delhi Technological University(DTU)."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Mzk8PROofEI0Fv4_7OkoPfjAL84-aHcy/view?usp=sharing",
+    "https://drive.google.com/file/d/1b9cvbaCkjoowgH4uTYSklJl0L0PzRz1D/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -26,9 +26,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/TheIncredibleVee",
   linkedin: "https://www.linkedin.com/in/theincrediblevee/",
-  gmail: "cehvinaysachdeva@gmail.com",
+  gmail: "vinaysachdeva_2k19ee271@dtu.ac.in",
   //gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/TheIncredibleVee/",
+  //facebook: "https://www.facebook.com/TheIncredibleVee/",
   instagram: "https://www.instagram.com/theincrediblevee/",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -45,10 +45,15 @@ const skillsSection = {
     emoji(
       "⚡ Front-end web-applications using React.js"
     ),
-    emoji("⚡ Progressive Web Applications (PWA)"),
+    emoji("⚡ Backe-end web-applications using Node.js and express.js"),
+    emoji("⚡ Database Management using MongoDB"),
+    emoji("⚡ Progressive Web Applications (PWA), with React Native or Ionic"),
+    emoji("⚡ Stylings using Tailwind CSS"),
     emoji(
       "⚡ Integration of third party services and API's such as Firebase/ AWS / Digital Ocean"
-    )
+    ),
+    emoji("⚡ Deep Learning and Machine Learning using Tensorflow"),
+    emoji("⚡ Data Mining and automation using Selenium and Beautiful Soup"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -91,10 +96,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -103,18 +108,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
     {
       skillName: "C/C++",
       fontAwesomeClassname: "fab fa-cuttlefish"
     },
-    // {
-    //   skillName: "Techinical Analysis",
-    //   fontAwesomeClassname: "fab fa-chart-line"
-    // }
+    {
+      skillName: "Techinical Analysis",
+      fontAwesomeClassname: "fab fa-chart-line"
+    }
     
   ],
   display: true // Set false to hide this section, defaults to true
@@ -147,18 +152,22 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "30%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Machine Learning/Deep Learning",
+      progressPercentage: "50%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -170,23 +179,23 @@ const workExperiences = {
       role: "Front-End Developer Intern",
       company: "Lynshia",
       companylogo: require("./assets/images/lynshia.jpg"),
-      date: "June 2021 – Present",
+      date: "June 2021 – August 2021",
       //desc: ", ",
       descBullets: [
-        "Contributing towards the front-end development of the website using React.js",
-        "creating a dashboard for users and further looking adding firebase auth to it and create a full-fledged website."
+        "Contributed towards the front-end development of the website using React.js",
+        "created a dashboard for users and further looking adding firebase auth to it and create a full-fledged website."
       ]
     },
-    {
-      role: "Web Developer and SEO Specialist Apprenticeship",
-      company: "Buy and Shell Shop",
-      companylogo: require("./assets/images/buyandsell.png"),
-      date: "Feb 2020 – May 2020",
-      descBullets:[ 
-        "Contributing towards the initial website designing and development",
-        "Worked on the SEO for the website."
-      ]
-    },
+    // {
+    //   role: "Web Developer and SEO Specialist Apprenticeship",
+    //   company: "Buy and Shell Shop",
+    //   companylogo: require("./assets/images/buyandsell.png"),
+    //   date: "Feb 2020 – May 2020",
+    //   descBullets:[ 
+    //     "Contributing towards the initial website designing and development",
+    //     "Worked on the SEO for the website."
+    //   ]
+    // },
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -225,12 +234,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/alpha.png"),
-      projectName: "Alpha-Chat",
-      projectDesc: "A chat service web-app",
+      projectName: "Data-collection Website:",
+      projectDesc: "A portal for data collection",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://chat-app.theincrediblevee.com/"
+          url: "https://data-collection-appp.herokuapp.com/"
         }
       ]
     },
@@ -246,24 +255,24 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/opt.jfif"),
-      projectName: "Optimal Traffic light Simulation",
-      projectDesc: "Using fuzzy logic",
+      image: require("./assets/images/search.png"),
+      projectName: "Search Ionic React App",
+      projectDesc: "An app to get data from api and display a couple of charts and also the messages assciated.",
       footerLink: [
         {
           name: "Visit Project",
-          url: "https://drive.google.com/file/d/1cZFHPiM5Lwnv7b0pqMyGhdgrmaKps6nG/view"
+          url: "https://search-ionic-app.vercel.app/home"
         }
       ]
     },
     {
-      image: require("./assets/images/trade.jfif"),
-      projectName: "Optimized Trading Pair Strategy:",
-      projectDesc: "For Trading stocks",
+      image: require("./assets/images/stock.webp"),
+      projectName: "Stock Price Prediction:",
+      projectDesc: "Using LSTM and Sentiment Analysis.",
       footerLink: [
         {
           name: "Visit Research",
-          url: "https://www.linkedin.com/pulse/trading-pair-strategy-vinay-sachdeva-a-k-a-theincrediblevee-/"
+          url: "https://github.com/TheIncredibleVee/Stock-Price_prediction-Using-LSTM-and-Sentiment-Analysis"
         }
       ]
     }
